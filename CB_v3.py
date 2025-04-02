@@ -1,10 +1,5 @@
 import os
 import subprocess
-subprocess.check_call(["pip", "install", "sentence-transformers"])
-from sentence_transformers import SentenceTransformer, util
-
-
-
 import streamlit as st  # Import after set_page_config
 from sentence_transformers import SentenceTransformer, util
 import torch
